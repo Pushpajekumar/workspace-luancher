@@ -1,0 +1,142 @@
+body {
+  background-color: #111827;
+  color: white;
+  min-width: 350px;
+}
+
+.header {
+  position: relative;
+}
+
+.close_button {
+  position: absolute;
+  top: -25px;
+  right: 5px;
+  padding: 0.2rem 0.7rem 0.5rem 0.7rem;
+  border-radius: 5px;
+  background-color: #1e293b;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.logo_holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 2rem 1rem;
+}
+
+.my_workspace_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5;
+}
+
+input[type="text"] {
+  width: 95%;
+  padding: 5px 5px;
+  margin: 2px;
+}
+#create_Workspace {
+  width: 100%;
+  margin: 3px;
+  border-radius: 10px;
+  background-color: #16a34a;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+}
+#create_Workspace:hover {
+  background-color: #15803d;
+  cursor: pointer;
+}
+
+.workspace_container {
+  min-height: 5vh;
+  padding: 1rem 0.3rem;
+  overflow-y: scroll;
+  max-height: 60vh;
+}
+
+.no_workspaces_message {
+  color: #888;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #020617;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+ul {
+  padding: 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.workspace_list li.even_item {
+  list-style: none;
+  font-size: 1rem;
+  background-color: #1e293b;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.workspace_list li.even_item:hover {
+  cursor: pointer;
+  background-color: #334155;
+}
+
+.workspace_list li.odd_item {
+  list-style: none;
+  font-size: 1rem;
+  background-color: #475569;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.workspace_list li.odd_item:hover {
+  background-color: #64748b;
+  cursor: pointer;
+}
+
+.workspace_content {
+  width: 100%;
+}
+
+.workspace_content > span:first-child {
+  display: inline-block;
+  width: 85%;
+}
+
+.workspace_content > span:last-child {
+  background-color: #020617;
+  padding: 0.5rem;
+  border-radius: 5px;
+}

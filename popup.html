@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workspace Launcher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo_holder">
+        <img
+          src="./logo.png"
+          width="50"
+          height="50"
+          alt="logo"
+          id="logo_image"
+        />
+        <h1 id="logo">Workspace Launcher</h1>
+      </div>
+      <p id="close" class="close_button">x</p>
+    </div>
+
+    <div class="my_workspace_input">
+      <input
+        type="text"
+        placeholder="Workspace Name"
+        name="workspace name"
+        id="workspace_Name"
+      />
+      <button type="submit" id="create_Workspace">Create Workspace</button>
+    </div>
+
+    <div class="workspace_container" id="my_Workspaces"></div>
+
+    <script src="./popup.js"></script>
+  </body>
+</html>
