@@ -9,7 +9,6 @@ The Workspace Launcher Chrome Extension is a tool that allows users to organize 
 - **Create Workspaces:** Organize your URLs into different workspaces based on projects, topics, or any other criteria.
 - **Add URLs to Workspaces:** Easily add URLs to your workspaces to create sets of related websites.
 - **Launch Workspaces:** Open all the URLs within a workspace in new tabs with a single click.
-- **Customizable Icons:** Add a touch of personality to your extension with customizable icons for each workspace.
 
 ## Installation
 
@@ -27,10 +26,10 @@ The Workspace Launcher Chrome Extension is a tool that allows users to organize 
 
 ## Screenshots
 
-![Workspace Launcher Screenshot 1](screenshots/screenshot1.png)
+![Workspace Launcher Screenshot 1](./sc1.png)
 _Caption for Screenshot 1._
 
-![Workspace Launcher Screenshot 2](screenshots/screenshot2.png)
+![Workspace Launcher Screenshot 2](./sc2.png)
 _Caption for Screenshot 2._
 
 ## Customization
